@@ -1,0 +1,108 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: #fff;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    width: 90%;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.time-div,.eth-div,.data,.author {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.time,.eth {
+    padding-left: 0.5em;
+}
+
+.eth-div {
+    margin-right: 6.8rem;
+}
+
+.creator-pic {
+    width: 12%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.author,.creator {
+    position: relative;
+    right: 1.7em;
+}
+
+.creator {
+    padding-left: 0.4em;
+}
+
+.para {
+    width: 70%;
+}
+
+h1, .para {
+    position: relative;
+    left: 1.2rem;
+}
+
+.nft {
+    padding-top: 1.5rem;
+    width: 85%;
+}
+
+.nft,.nft .card {
+    border-radius: 15px;
+}
+
+.view {
+    display: none;
+}
+
+h1, .para {
+    position: relative;
+    left: -1.5rem;
+}
+
+.para, span,.time-div {
+    color: #8BACD9;
+}
+
+@media (min-width: 1440px) {
+    body {
+        width: 35%;
+    }
+
+    h1 {
+        left: -4em;
+    }
+    .eth-div {
+        padding-right: 6.6em;
+    }
+    .author {
+        right: 7em;
+    }
+    .card {
+        position: relative;
+        left: 90%;
+    }
+}
